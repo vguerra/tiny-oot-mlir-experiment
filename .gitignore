@@ -1,0 +1,31 @@
+# Build output
+build/
+compile_commands.json
+
+# CMake in-source build artifacts (lib/, tools/)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+build.ninja
+.ninja_*
+*.dir/
+*.a
+*.o
+*.so
+*.dylib
+my-opt
+
+# Clang tooling / editor caches
+.cache/
+.clangd/
+*.swp
+.vscode/
+.idea/
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
